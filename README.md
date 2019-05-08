@@ -19,15 +19,16 @@ In this project, we focus on boba shops across the US. This data includes the re
 - The reviews with more than 4 stars are good reviews.
 - The reviews with less than 2 stars are bad reviews.
 
-We calculate TF-IDF scores for those reviews to build up the product portfolio:
+#### We calculate TF-IDF scores for those reviews to build up the product portfolio:
 - Calculate TF-IDF scores and find out the important phrases for both good and bad reviews separately.
 - But the results turn out to be very similar, we assume that the product names with high TF-IDF scores are the popular products among customers (because those products are highly mentioned and also important in both good and bad reviews).
  
-Next, we calculate TF-IDF for each product's reviews to identify important features for each product:
+#### Next, we calculate TF-IDF for each product's reviews to identify important features for each product:
 - Calculate TF-IDF scores for both good and bad reviews of each product in order to find out what features make people like or dislike this product.
 
-We also find out the environments and services which can meet customers' expectations:
+#### We also find out the environments and services which can meet customers' expectations:
 - Calculate TF-IDF for reviews (without the product names in our product portfolio) by adding stopwords such as "Boba" or "Tea" etc.
+
 
 Therefore, we can not only know how to serve our products in the best way for our customers but also know what environments and services our customers prefer.
 

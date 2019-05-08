@@ -16,8 +16,8 @@ In this project, we focus on boba shops across the US. This data includes the re
 ### Methodologies
 
 #### We separate the reviews into good and bad reviews based on ratings.
-- The reviews with more than 4 stars are good reviews.
-- The reviews with less than 2 stars are bad reviews.
+- The reviews with 4-5 stars are good reviews.
+- The reviews with 1-2 stars are bad reviews.
 
 #### We calculate TF-IDF scores for those reviews to build up the product portfolio:
 - Calculate TF-IDF scores and find out the important phrases for both good and bad reviews separately.
